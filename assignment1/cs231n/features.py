@@ -95,7 +95,7 @@ def hog_feature(im):
 
   sx, sy = image.shape # image size
   orientations = 9 # number of gradient bins
-  cx, cy = (8, 8) # pixels per cell
+  cx, cy = 8, 8 # pixels per cell
 
   gx = np.zeros(image.shape)
   gy = np.zeros(image.shape)
